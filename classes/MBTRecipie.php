@@ -127,6 +127,25 @@ class MBTRecipie extends MBTObject {
 	//-------------------------------------------------------------------------------
 	
 	
+	
+	//-------------------------------------------------------------------------------
+	// get recipie header html
+	//-------------------------------------------------------------------------------
+	function getRecipieHeaderHTML() {
+		$returnHTML = "";
+	
+		$returnHTML .= 
+			$this->recipieName . ' (' . $this->beerTypeName . ') <br />
+			ABV: ' . $this->averageABV . ' IBUs: ' . $this->averageIBU . " Boil Time: " . $this->boilTime . " min.<br />
+			Batch Size: " . $this->batchSize . " " . $this->batchUnitOfMeasureName . "
+			Boil Size: " . $this->boilSize . " " . $this->boilUnitOfMeasureName . "<br />
+			Original Gravity: " . $this->originalGravity . " Final Gravity: " . $this->finalGravity;
+			
+		return $returnHTML;
+	}
+	//-------------------------------------------------------------------------------
+	
+	
 	//-------------------------------------------------------------------------------
 	// get recipie name
 	//-------------------------------------------------------------------------------
