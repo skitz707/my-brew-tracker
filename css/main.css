@@ -1,0 +1,330 @@
+body {
+	background: linear-gradient(#ffffff, #ffff77);
+	background: -o-linear-gradient(#ffffff, #ffff77);
+	background: -moz-linear-gradient(#ffffff, #ffff77);
+	background: linear-gradient(#ffffff, #ffff77);
+	color: #000000;
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+}
+
+div#mainContainer {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	width: 98%;
+}
+
+div#mainContent {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu {
+	position: fixed;
+	width: 225px;
+	background-color: #790000;
+	top: 40px;
+	visibility: hidden;
+	left: 0px;
+	z-index: 0;
+	border-radius: 0 0 15px 5px;
+	border: 1px solid #333333;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#controlBar {
+	width: 100%;
+	height: 40px;
+	background-color: #f4b342;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	color: #ffffff;
+	border-bottom: 1px solid #999999;
+}
+
+#controlBar a {
+	color: #eeeeee;
+}
+
+#controlBar a:visited {
+	color: #eeeeee;
+}
+
+#controlBar a:hover {
+	color: #d3d3d3;
+}
+
+#controlBar a:active {
+	color: #ffffff;
+}
+
+#controlLeft {
+	width: 50%;
+	text-align: left;
+	padding: 4px;
+	float: left;
+	vertical-align: center;
+}
+
+#controlRight {
+	width: 48%;
+	text-align: right;
+	float: left;
+	padding: 4px;
+	vertical-align: center;
+}
+
+#menuBox {
+	width: 30px;
+	height: 30px;
+	background-color: #cc5555;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#menuBox:hover {
+	background-color: #ccccff;
+}
+
+#menuBox:active {
+	background-color: #ffffcc;
+}
+
+.menuOption {
+	font-size: 12pt;
+	color: #eeeeee;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.menuOption:hover {
+	background-color: #cc6666;
+}
+
+.menuOption:active {
+	background-color: #cc7777;
+}
+
+
+.battleHeader {
+	text-align: left;
+	width: 99%;
+	margin-top: 45px;"
+	color: white;
+}
+
+.characterCard {
+	width: 260px;
+	height: 350px;
+	font-size: 20pt;
+	float: left;
+	margin: 15px;
+	padding: 2px;
+	color: white;
+}
+
+.characterName {
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.adminCharacterCard {
+	width: 230px;
+	height: 450px;
+	font-size: 14pt;
+	float: left;
+	margin: 5px;
+	padding: 2px;
+	color: white;
+}
+
+.adminCharacterName {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.monsterCard {
+	width: 260px;
+	height: 350px;
+	font-size: 20pt;
+	float: left;
+	margin: 15px;
+	padding: 2px;
+	color: white;
+}
+
+.monsterName {
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.adminMonsterCard {
+	width: 230px;
+	height: 450px;
+	font-size: 14pt;
+	float: left;
+	margin: 5px;
+	padding: 2px;
+	color: white;
+}
+
+.adminMonsterName {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.characterUnconscious {
+	background-color: #ffb2b2;
+}
+
+.greenButton {
+	display: inline-block;
+	border: 1px solid #000000;
+	-moz-border-radius: 5px;
+	border-radius: 4px;
+	color: #eeeeee;
+	background: linear-gradient(#007900, #005900);
+	cursor: pointer;
+	cursor: hand;
+	margin: 2px;
+	padding: 4px;
+}
+.greenButton:hover {
+	background: linear-gradient(#008900, #006900);
+}
+
+.greenButton:active {
+	background: linear-gradient(#009900, #007900);
+}
+
+.blueButton {
+	display: inline-block;
+	border: 1px solid #000000;
+	-moz-border-radius: 5px;
+	border-radius: 4px;
+	color: #eeeeee;
+	background: linear-gradient(#000079, #000059);
+	cursor: pointer;
+	cursor: hand;
+	margin: 2px;
+	padding: 4px;
+}
+.blueButton:hover {
+	background: linear-gradient(#000089, #000069);
+}
+
+.blueButton:active {
+	background: linear-gradient(#000099, #000079);
+}
+
+.redButton {
+	display: inline-block;
+	border: 1px solid #000000;
+	-moz-border-radius: 5px;
+	border-radius: 4px;
+	color: #eeeeee;
+	background: linear-gradient(#790000, #590000);
+	cursor: pointer;
+	cursor: hand;
+	margin: 2px;
+	padding: 4px;
+}
+.redButton:hover {
+	background: linear-gradient(#890000, #690000);
+}
+
+.redButton:active {
+	background: linear-gradient(#990000, #790000);
+}
+
+.largeHeading {
+	font-size: 18pt;
+}
+
+.mediumHeading {
+	font-size: 16pt;
+}
+
+.standardResultTable {
+	font-size: 12pt;
+	font-family: Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.standardResultTable th {
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+.standardResultTable tr:nth-child(even) {
+	background: #cccccc;
+}
+
+.standardResultTable tr:nth-child(odd) {
+	background: #eeeeee;
+}
+
+.loginTextField {
+	font-family: Calibri, sans-serif;
+	font-size: 18pt;
+	border: 1px solid #999999;
+	height: 35px;
+	border-radius: 2px;
+	padding: 2px;
+	background: linear-gradient(#ffa1a1, #ff8888);
+	background: -o-linear-gradient(#ffa1a1, #ff8888);
+	background: -moz-linear-gradient(#ffa1a1, #ff8888);
+	background: linear-gradient(#ffa1a1, #ff8888);
+}
+
+.crumbTrail {
+	font-size: 14pt;
+	padding-left: 15px;
+}
+
+.characterSelect {
+	vertical-align: text-middle;
+	padding: 10px;
+	text-align: left;
+	width: 100%;
+	height: 200px;
+	font-size: 30pt;
+	border: 2px solid #999999;
+}
+
+.characterSelect:hover {
+	background-color: #cc5555;
+}
+	
+.characterSelect:active {
+	background: #cc6666;
+}	
+
+.attackSelection {
+	background-color: #bbbbbb;
+	text-align: center;
+}
+
+.spellSelection {
+	background-color: #bbbbbb;
+	text-align: center;
+}
+
+.specialSkillSelection {
+	background-color: #bbbbbb;
+	text-align: center;
+}
