@@ -115,78 +115,6 @@ div#mainContent {
 	background-color: #cc7777;
 }
 
-
-.battleHeader {
-	text-align: left;
-	width: 99%;
-	margin-top: 45px;"
-	color: white;
-}
-
-.characterCard {
-	width: 260px;
-	height: 350px;
-	font-size: 20pt;
-	float: left;
-	margin: 15px;
-	padding: 2px;
-	color: white;
-}
-
-.characterName {
-	font-size: 24pt;
-	font-weight: bold;
-}
-
-.adminCharacterCard {
-	width: 230px;
-	height: 450px;
-	font-size: 14pt;
-	float: left;
-	margin: 5px;
-	padding: 2px;
-	color: white;
-}
-
-.adminCharacterName {
-	font-size: 16pt;
-	font-weight: bold;
-}
-
-.monsterCard {
-	width: 260px;
-	height: 350px;
-	font-size: 20pt;
-	float: left;
-	margin: 15px;
-	padding: 2px;
-	color: white;
-}
-
-.monsterName {
-	font-size: 24pt;
-	font-weight: bold;
-}
-
-.adminMonsterCard {
-	width: 230px;
-	height: 450px;
-	font-size: 14pt;
-	float: left;
-	margin: 5px;
-	padding: 2px;
-	color: white;
-}
-
-.adminMonsterName {
-	font-size: 16pt;
-	font-weight: bold;
-}
-
-.characterUnconscious {
-	background-color: #ffb2b2;
-}
-
 .greenButton {
 	display: inline-block;
 	border: 1px solid #000000;
@@ -294,37 +222,4 @@ div#mainContent {
 .crumbTrail {
 	font-size: 14pt;
 	padding-left: 15px;
-}
-
-.characterSelect {
-	vertical-align: text-middle;
-	padding: 10px;
-	text-align: left;
-	width: 100%;
-	height: 200px;
-	font-size: 30pt;
-	border: 2px solid #999999;
-}
-
-.characterSelect:hover {
-	background-color: #cc5555;
-}
-	
-.characterSelect:active {
-	background: #cc6666;
-}	
-
-.attackSelection {
-	background-color: #bbbbbb;
-	text-align: center;
-}
-
-.spellSelection {
-	background-color: #bbbbbb;
-	text-align: center;
-}
-
-.specialSkillSelection {
-	background-color: #bbbbbb;
-	text-align: center;
 }
