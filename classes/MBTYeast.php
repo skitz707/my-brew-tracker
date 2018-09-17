@@ -63,6 +63,34 @@ class MBTYeast extends MBTObject {
 	
 	
 	//-------------------------------------------------------------------------------
+	// get yeast type drop down html
+	//-------------------------------------------------------------------------------
+	public function getYeastDropDownHTML($selected) {
+		$selectStmt = "select * from mybrew.yeasts order by yeastName asc";
+		$returnHTML = "";
+		
+		$returnHTML .= '<select id="yeastId" name="yeastId">';
+		
+		if ($selectHandle = $this->database->databaseConnection->prepare($selectStmt)) {
+			if (!$selectHandle->execute()) {
+				var_dump($this->database->databaseConnection->errorInfo());
+			}
+			
+			while ($data = $selectHandle->fetch(PDO::FETCH_ASSOC)) {
+				$returnHTML .= '<option value="' . $data['yeastId'] . '">' . $data['yeastName'] . '</option>';
+			}
+		} else {
+			var_dump($this->database->databaseConnection->errorInfo());
+		}
+		
+		$returnHTML .= '</select>';
+		
+		return $returnHTML;
+	}
+	//-------------------------------------------------------------------------------
+	
+	
+	//-------------------------------------------------------------------------------
 	// get yeast name
 	//-------------------------------------------------------------------------------
 	public function getYeastName() {
